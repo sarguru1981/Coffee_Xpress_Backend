@@ -8,3 +8,14 @@ The Coffee Xpress app backend is built using Golang (Go) programming language an
 The initial part implemented focuses on designing the project structure and setting up the basic routing for the Coffee Xpress app backend.
 
 For more detailed documentation, see the [Project Structure](./Readme/ProjectStructure.md).
+
+### Main.go
+The main function serves as the core orchestrator of the Coffee Xpress backend application, responsible for configuring the server, defining routes, and handling incoming HTTP requests. It reads the port number from the environment variable or defaults to port 8000, initializes a Gin router with logging middleware, and sets up routes for user management, product handling, menu management, favorites, order history, cart items, and payment processing. Authentication middleware ensures secure access to protected routes. Finally, the server starts listening on the specified port, ready to handle requests from the Coffee Xpress frontend client.
+
+### Database
+The database package establishes a connection to the MongoDB database for the Coffee Xpress backend application. 
+
+For more detailed documentation on the logic, see the [Database](./Readme/Database.md).
+
+### Routes
+The routes folder contains the router configuration for handling incoming HTTP requests. This is where the routes for various endpoints are defined and mapped to their respective controller functions.
