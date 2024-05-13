@@ -4,7 +4,7 @@ The Coffee Xpress App Backend is the server-side implementation for the Coffee X
 ## Overview
 The Coffee Xpress app backend is built using Golang (Go) programming language and MongoDB database. It serves as the middleware between the frontend client and the database, handling user authentication, order management, menu management, and other essential operations.
 
-### Initial Project Structure
+### Project Structure
 The initial part implemented focuses on designing the project structure and setting up the basic routing for the Coffee Xpress app backend.
 
 For more detailed documentation, see the [Project Structure](./Readme/ProjectStructure.md).
