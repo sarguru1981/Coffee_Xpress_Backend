@@ -19,3 +19,8 @@ For more detailed documentation on the logic, see the [Database](./Readme/Databa
 
 ### Routes
 The routes folder contains the router configuration for handling incoming HTTP requests. This is where the routes for various endpoints are defined and mapped to their respective controller functions.
+
+### Models
+This repository contains the MongoDB models for the Coffee Xpress backend. These models represent the various entities and relationships within the Coffee Xpress application.
+
+For more detailed documentation on the logic, see the [Models](./Readme/Models.md).
